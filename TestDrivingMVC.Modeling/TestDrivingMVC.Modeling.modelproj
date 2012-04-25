@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b24dfb30-8cf4-4236-bfce-542d6b4465e9}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>TestDrivingMVC.Modeling</Name>
+    <RootNamespace>TestDrivingMVC.Modeling</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\TestDrivingMVC.Modeling.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="Layers.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="Layers.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Layers.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="Layers.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>Layers.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestDrivingMVC.Controllers\TestDrivingMVC.Controllers.csproj">
+      <Name>TestDrivingMVC.Controllers</Name>
+      <Project>{eeae9eb7-c20a-42dc-808f-de40af5da13c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDrivingMVC.DataAccess\TestDrivingMVC.DataAccess.csproj">
+      <Name>TestDrivingMVC.DataAccess</Name>
+      <Project>{296b8c9b-61fd-4493-a7f5-705e5542ce3d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDrivingMVC.Domain\TestDrivingMVC.Domain.csproj">
+      <Name>TestDrivingMVC.Domain</Name>
+      <Project>{ea2083c5-3467-469b-afd4-03befa6f5c42}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDrivingMVC.Service\TestDrivingMVC.Service.csproj">
+      <Name>TestDrivingMVC.Service</Name>
+      <Project>{c56164c0-3983-4363-af29-627e0ab8c303}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDrivingMVC.Shared\TestDrivingMVC.Shared.csproj">
+      <Name>TestDrivingMVC.Shared</Name>
+      <Project>{5a60ed5f-0d14-4077-9e17-0374ad323dda}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDrivingMVC.Web\TestDrivingMVC.Web.csproj">
+      <Name>TestDrivingMVC.Web</Name>
+      <Project>{46e73502-6443-4340-95a0-b1b320477e65}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

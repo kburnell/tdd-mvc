@@ -1,0 +1,4 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Domain\bin\Debug\TestDrivingMVC.Domain.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Domain\bin\Debug\TestDrivingMVC.Domain.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Domain\obj\Debug\TestDrivingMVC.Domain.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Domain\obj\Debug\TestDrivingMVC.Domain.pdb

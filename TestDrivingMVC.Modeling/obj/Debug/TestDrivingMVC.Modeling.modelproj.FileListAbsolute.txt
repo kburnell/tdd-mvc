@@ -1,0 +1,17 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Controllers.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Shared.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Web.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\System.Web.Optimization.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Controllers.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Shared.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Web.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\obj\Debug\TestDrivingMVC.Modeling.modelprojResolveAssemblyReference.cache
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.DataAccess.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Domain.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Service.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.DataAccess.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Domain.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\TestDrivingMVC.Service.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\StructureMap.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\StructureMap.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Modeling\bin\Debug\StructureMap.xml

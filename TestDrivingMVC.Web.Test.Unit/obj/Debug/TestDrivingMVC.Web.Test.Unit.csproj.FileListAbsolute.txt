@@ -1,0 +1,13 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Web.Test.Unit.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Web.Test.Unit.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\Should.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\StructureMap.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Service.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Shared.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Service.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\TestDrivingMVC.Shared.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\StructureMap.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\bin\Debug\StructureMap.xml
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\obj\Debug\TestDrivingMVC.Web.Test.Unit.csprojResolveAssemblyReference.cache
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\obj\Debug\TestDrivingMVC.Web.Test.Unit.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.Unit\obj\Debug\TestDrivingMVC.Web.Test.Unit.pdb

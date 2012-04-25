@@ -1,0 +1,4 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Controllers.Test.Integration\bin\Debug\TestDrivingMVC.Controllers.Test.Integration.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Controllers.Test.Integration\bin\Debug\TestDrivingMVC.Controllers.Test.Integration.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Controllers.Test.Integration\obj\Debug\TestDrivingMVC.Controllers.Test.Integration.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Controllers.Test.Integration\obj\Debug\TestDrivingMVC.Controllers.Test.Integration.pdb

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9fe986dd-b185-4642-bd3a-dfd16bdb6150" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="693155cd-a233-43a3-a53a-68379354363a" name="TestDrivingMVC.Web">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="18a576bd-f740-458b-826b-34081c6bd245" direction="Forward">
+          <layerMoniker Id="3ba09233-85b4-42b6-9910-6ac6e6fba5bf" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="03cbc142-24b9-43f2-a64e-47049dc197ac" direction="Forward">
+          <layerMoniker Id="788dee79-2888-405d-b608-07c4d5e437da" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="7779f0ed-581b-400c-9749-7b1e8c42ed09" direction="Forward">
+          <layerMoniker Id="86012342-6ad4-4fa4-b395-382edf42c1e1" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d51b1a99-95cb-4b4c-b483-ed99b770393f" direction="Forward">
+          <layerMoniker Id="4b66f5b5-7939-4dd8-ac6e-a69639f8c2df" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2d3dbce3-5764-4591-b59a-e6d410879203" name="TestDrivingMVC.Web">
+          <ArtifactNode Label="TestDrivingMVC.Web" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.Web/TestDrivingMVC.Web.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.Web)" Label="TestDrivingMVC.Web.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="3ba09233-85b4-42b6-9910-6ac6e6fba5bf" name="TestDrivingMVC.Shared">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="9196fa90-5d5d-49a0-a309-063a9ca9e0c0" direction="Forward">
+          <layerMoniker Id="86012342-6ad4-4fa4-b395-382edf42c1e1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="10b5c290-4b21-44b8-b795-78a9b969969e" name="TestDrivingMVC.Shared">
+          <ArtifactNode Label="TestDrivingMVC.Shared" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.Shared/TestDrivingMVC.Shared.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.Shared)" Label="TestDrivingMVC.Shared.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="788dee79-2888-405d-b608-07c4d5e437da" name="TestDrivingMVC.Controllers">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="5a1ccd00-45de-43f3-b2cf-03e4dcd6fc65" direction="Forward">
+          <layerMoniker Id="3ba09233-85b4-42b6-9910-6ac6e6fba5bf" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="4041b29c-31d6-4bfd-9e50-9b8055f9ce59" direction="Forward">
+          <layerMoniker Id="4b66f5b5-7939-4dd8-ac6e-a69639f8c2df" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="06f2ae1e-26d3-4c72-8bb6-0793b909a4e4" direction="Forward">
+          <layerMoniker Id="86012342-6ad4-4fa4-b395-382edf42c1e1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="280ad411-e5b1-4134-81a7-238d2e8bb865" name="TestDrivingMVC.Controllers">
+          <ArtifactNode Label="TestDrivingMVC.Controllers" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.Controllers/TestDrivingMVC.Controllers.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.Controllers)" Label="TestDrivingMVC.Controllers.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="4b66f5b5-7939-4dd8-ac6e-a69639f8c2df" name="TestDrivingMVC.Service">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1eb4a6ef-6bfb-42ec-9004-fef9bccdf19b" direction="Forward">
+          <layerMoniker Id="aa946c1e-dbd2-4711-8d11-626cb4eb5d63" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="b510d001-3fd1-4d35-b878-573d3b6a34d4" direction="Forward">
+          <layerMoniker Id="3ba09233-85b4-42b6-9910-6ac6e6fba5bf" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="871e0166-4d72-4bb1-acba-3daf7c541f6e" direction="Forward">
+          <layerMoniker Id="86012342-6ad4-4fa4-b395-382edf42c1e1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="41babf29-3642-4592-932a-a399dc348817" name="TestDrivingMVC.Service">
+          <ArtifactNode Label="TestDrivingMVC.Service" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.Service/TestDrivingMVC.Service.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.Service)" Label="TestDrivingMVC.Service.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="aa946c1e-dbd2-4711-8d11-626cb4eb5d63" name="TestDrivingMVC.DataAccess">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="db4e572c-f965-4170-b84e-8ae2c6936f6e" direction="Forward">
+          <layerMoniker Id="3ba09233-85b4-42b6-9910-6ac6e6fba5bf" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="50c0e83a-e963-46ee-aa59-494565e3a00c" direction="Forward">
+          <layerMoniker Id="86012342-6ad4-4fa4-b395-382edf42c1e1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="8210add4-e3d0-4ca5-97be-ed8b7aad39ea" name="TestDrivingMVC.DataAccess">
+          <ArtifactNode Label="TestDrivingMVC.DataAccess" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.DataAccess/TestDrivingMVC.DataAccess.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.DataAccess)" Label="TestDrivingMVC.DataAccess.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="86012342-6ad4-4fa4-b395-382edf42c1e1" name="TestDrivingMVC.Domain">
+      <references>
+        <reference Id="21d7db0e-4ab6-4937-96cc-755cad1afb56" name="TestDrivingMVC.Domain">
+          <ArtifactNode Label="TestDrivingMVC.Domain" Category="CodeSchema_Project" Id="(Assembly=../TestDrivingMVC.Domain/TestDrivingMVC.Domain.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=TestDrivingMVC.Domain)" Label="TestDrivingMVC.Domain.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

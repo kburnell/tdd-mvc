@@ -1,0 +1,4 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Service.Test.Performance\bin\Debug\TestDrivingMVC.Service.Test.Performance.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Service.Test.Performance\bin\Debug\TestDrivingMVC.Service.Test.Performance.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Service.Test.Performance\obj\Debug\TestDrivingMVC.Service.Test.Performance.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Service.Test.Performance\obj\Debug\TestDrivingMVC.Service.Test.Performance.pdb

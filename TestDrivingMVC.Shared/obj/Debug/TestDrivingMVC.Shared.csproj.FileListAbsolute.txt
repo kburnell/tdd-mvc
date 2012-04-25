@@ -1,0 +1,10 @@
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\TestDrivingMVC.Shared.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\TestDrivingMVC.Shared.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\obj\Debug\TestDrivingMVC.Shared.csprojResolveAssemblyReference.cache
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\obj\Debug\TestDrivingMVC.Shared.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\obj\Debug\TestDrivingMVC.Shared.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\TestDrivingMVC.Domain.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\TestDrivingMVC.Domain.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\StructureMap.dll
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\StructureMap.pdb
+D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Shared\bin\Debug\StructureMap.xml
