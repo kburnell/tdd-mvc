@@ -23,7 +23,7 @@ namespace TestDrivingMVC.Web {
         }
 
         protected void Application_Start() {
-            AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas();        
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
             BundleTable.Bundles.RegisterTemplateBundles();
@@ -32,10 +32,10 @@ namespace TestDrivingMVC.Web {
         }
 
         private void WireUpDependencyInjection() {
-            ObjectFactory.Initialize(registry => registry.Scan(x => {
-                                                                   x.AssembliesFromApplicationBaseDirectory();
-                                                                   x.WithDefaultConventions();
-                                                               }));
+            //ObjectFactory.Initialize(registry => registry.Scan(x => {
+            //                                                       x.AssembliesFromApplicationBaseDirectory();
+            //                                                       x.WithDefaultConventions();
+            //                                                   }));
         }
 
         private void SetControllerFactory() {
