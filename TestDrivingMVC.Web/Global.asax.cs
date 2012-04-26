@@ -4,8 +4,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using StructureMap;
-using TestDrivingMVC.Service;
-using TestDrivingMVC.Service.Interfaces;
+using TestDrivingMVC.Web.Utility;
 
 namespace TestDrivingMVC.Web {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -18,8 +17,9 @@ namespace TestDrivingMVC.Web {
 
         public static void RegisterRoutes(RouteCollection routes) {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });
             routes.MapHttpRoute(name: "DefaultApi", routeTemplate: "api/{controller}/{id}", defaults: new {id = RouteParameter.Optional});
-            routes.MapRoute(name: "Default", url: "{controller}/{action}/{id}", namespaces: new[] {"[Namespace of the Project that contains your controllers]"}, defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional});
+            routes.MapRoute(name: "Default", url: "{controller}/{action}/{id}", namespaces: new[] {"TestDrivingMVC.Controllers"}, defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional});
         }
 
         protected void Application_Start() {
@@ -27,8 +27,8 @@ namespace TestDrivingMVC.Web {
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
             BundleTable.Bundles.RegisterTemplateBundles();
-
             WireUpDependencyInjection();
+            SetControllerFactory();
         }
 
         private void WireUpDependencyInjection() {
@@ -36,6 +36,10 @@ namespace TestDrivingMVC.Web {
                                                                    x.AssembliesFromApplicationBaseDirectory();
                                                                    x.WithDefaultConventions();
                                                                }));
+        }
+
+        private void SetControllerFactory() {
+            ControllerBuilder.Current.SetControllerFactory(new ControllerFactory());
         }
     }
 }

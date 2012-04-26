@@ -1,14 +1,23 @@
 ﻿using System.Web.Mvc;
-using TestDrivingMVC.Service;
+using TestDrivingMVC.Service.Interfaces;
 
 namespace TestDrivingMVC.Controllers {
 
     //Consumer of Employe Service
     public class HomeController : Controller {
 
-        public ActionResult DisplaySalary(long employeeId) {
-            EmployeeService employeeService = new EmployeeService();
-            decimal salary = employeeService.CalculateSalary(employeeId);
+        private readonly IEmployeeService _employeeService;
+
+        public HomeController(IEmployeeService employeeService) {
+            _employeeService = employeeService;
+        }
+
+        public ActionResult Index() {
+            return View();
+        }
+
+        public ActionResult DisplaySalary(long id) {
+            decimal salary = _employeeService.CalculateSalary(id);
             return View(salary);
         }
 
