@@ -1,5 +1,4 @@
 D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.UI\bin\Debug\TestDrivingMVC.Web.Test.UI.dll
 D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.UI\bin\Debug\TestDrivingMVC.Web.Test.UI.pdb
-D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.UI\obj\Debug\TestDrivingMVC.Web.Test.UI.csprojResolveAssemblyReference.cache
 D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.UI\obj\Debug\TestDrivingMVC.Web.Test.UI.dll
 D:\Dev\Articles\TestDrivingMVC\TestDrivingMVC.Web.Test.UI\obj\Debug\TestDrivingMVC.Web.Test.UI.pdb

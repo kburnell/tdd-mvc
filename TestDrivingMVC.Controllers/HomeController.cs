@@ -3,7 +3,7 @@ using TestDrivingMVC.Service.Interfaces;
 
 namespace TestDrivingMVC.Controllers {
 
-    //Consumer of Employe Service
+    //Consumer of Employee Service
     public class HomeController : Controller {
 
         private readonly IEmployeeService _employeeService;

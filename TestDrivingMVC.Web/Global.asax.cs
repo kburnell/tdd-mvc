@@ -32,10 +32,11 @@ namespace TestDrivingMVC.Web {
         }
 
         private void WireUpDependencyInjection() {
-            //ObjectFactory.Initialize(registry => registry.Scan(x => {
-            //                                                       x.AssembliesFromApplicationBaseDirectory();
-            //                                                       x.WithDefaultConventions();
-            //                                                   }));
+            ObjectFactory.Initialize(registry => registry.Scan(x =>
+            {
+                x.AssembliesFromApplicationBaseDirectory();
+                x.WithDefaultConventions();
+            }));
         }
 
         private void SetControllerFactory() {
